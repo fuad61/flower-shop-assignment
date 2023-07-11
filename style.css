@@ -138,10 +138,11 @@ main{ max-width: 1920px;
  
 .row{
     display: flex;
+    width: 70%;
     justify-content:space-between;
     align-items: center;
     padding: 40px 240px 120px;
-    width: 80%;
+    
 }
 
 .re-size{
@@ -169,4 +170,16 @@ main{ max-width: 1920px;
     border-radius: 10px;
     color:white;
     border: none;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: rgb(153, 145, 145);
+    height:200px ;
+    padding-top: 20px;
+    padding-bottom: ;
+}
+.f-cr{
+    color: rgb(51, 48, 48);
+    
 }
