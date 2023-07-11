@@ -104,6 +104,7 @@ main{ max-width: 1920px;
     margin-left: 13%;
     margin-right: 13%;
     background-color: rgb(226, 216, 202);
+    
 }
 .offer{
     height: 100vh;
@@ -182,4 +183,18 @@ footer{
 .f-cr{
     color: rgb(51, 48, 48);
     
+}
+.extra{
+    text-align: center;
+    align-items: center;
+    
+    margin-top: 50px;
+}
+.extra-work{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    padding: 60px;
+    border-radius: 50px;
+    background-color: rgb(226, 216, 202);
 }
