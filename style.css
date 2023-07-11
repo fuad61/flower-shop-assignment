@@ -3,7 +3,7 @@
 }
 
 .pro-pic{
-    width: 500px;
+    width: 475px;
     padding-top: 30px;
 }
 .header-container{
@@ -34,13 +34,16 @@
 
 }
 main{ max-width: 1920px;
-    background-color: rgb(226, 216, 202);
+   
     margin: auto;
 }
+
 .featured{
     text-align: center;
     align-items: center;
     padding: 10px;
+    margin-top: 50px;
+    /* background-color: rgb(226, 216, 202); */
 }
 .f-description{
     font-size: 18px;
@@ -54,40 +57,61 @@ main{ max-width: 1920px;
 
 }
 .card{
-    width: 200px ;
-    height: 300px;
+    width: 250px ;
+    height: 400px;
+    background-color: rgb(226, 216, 202);
+    padding: 30px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
    
 }
 .f-img{
     width: 100%;
+    height: 100%;
 }
 .cards{
     display: flex;
     justify-content: center;
-    gap: 100px;
-}
-.support{
-    width: 100px ;
-    height: 80px;
-    justify-content:sp;
     gap: 30px;
-   
     
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+
+
+
+
+.support{
+    width: 400px ;
+    height: 80px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .s-img{
-    width: 50%;
+    width: 20%;
+    
+    
 }
 .supports{
     display: flex;
     justify-content: center;
-    gap: 200px;
-    padding: 200px;
+    
+    padding: 60px;
+    margin-top: 50px;
+    margin-left: 13%;
+    margin-right: 13%;
+    background-color: rgb(226, 216, 202);
 }
 .offer{
     height: 100vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-color: rgb(249, 241, 248);
+    margin-top: 50px;
     
     
 }
@@ -118,14 +142,30 @@ main{ max-width: 1920px;
     align-items: center;
     padding: 40px 240px 120px;
 }
-.column {
-   
-  
-    
-  }
-  
 
 .re-size{
     width: 220px;
     padding: 5px;
+}
+.subscribe{
+    text-align: center;
+    background-image: url("./Flower\ Asset/Rectangle 9.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 90%;
+    height: 250px;
+    margin: 80px;
+    padding-top: 100px;
+   
+    border-radius:20px;
+    background-blend-mode: overlay;
+
+    
+}
+.inp{
+    width: 40%;
+    height: 45px;
+    border-radius: 10px;
+    color:white;
+    border: none;
 }
