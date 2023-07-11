@@ -141,6 +141,7 @@ main{ max-width: 1920px;
     justify-content:space-between;
     align-items: center;
     padding: 40px 240px 120px;
+    width: 80%;
 }
 
 .re-size{
