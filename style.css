@@ -88,7 +88,7 @@ main{ max-width: 1920px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: auto;
+    
     
 }
 .offer-txt{
@@ -100,6 +100,7 @@ main{ max-width: 1920px;
     width: 300px;
 }
 .offer-img{
+   
     justify-content: flex-start;
 }
 .primary{
@@ -109,5 +110,22 @@ main{ max-width: 1920px;
     
 .insta{
     text-align: center;
+}
+ 
+.row{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 40px 240px 120px;
+}
+.column {
    
+  
+    
+  }
+  
+
+.re-size{
+    width: 220px;
+    padding: 5px;
 }
